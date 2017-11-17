@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Endless Tower</title>
+    <link rel="stylesheet" href="{{site.baseurl}}/css/common.css">
 </head>
 <body>
 
 <header>
     <h1>Endless Tower</h1>
-    {% include nav.html %}
+    {% include nav.html navclass='nav-top' %}
 </header>
 
 {{content}}
 
 <footer>
-    {% include nav.html %}
+    {% include nav.html navclass='nav-bottom' %}
     <p>© 2017 The Child Studios Ltda</p>
 </footer>
 
