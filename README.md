@@ -1,2 +1,2 @@
-# ETHotsite
+# jekyll-tutorial
 Hotsite utilizando Jekyll
