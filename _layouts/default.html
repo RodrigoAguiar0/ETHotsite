@@ -8,15 +8,15 @@
 
 <header>
     <h1>Endless Tower</h1>
-    <nav>
-        <ul>
-            <il><a href="{{site.baseurl}}/index.html">Home</a></il>
-            <il><a href="{{site.baseurl}}/news.html">News</a></il>
-        </ul>
-    </nav>
+    {% include nav.html %}
 </header>
 
 {{content}}
+
+<footer>
+    {% include nav.html %}
+    <p>© 2017 The Child Studios Ltda</p>
+</footer>
 
 </body>
 </html>
