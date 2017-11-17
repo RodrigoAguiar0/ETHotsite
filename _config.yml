@@ -1,0 +1,2 @@
+baseurl: /ETHotsite
+exclude: ['README.md','.gitignore','.idea']
