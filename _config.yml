@@ -1,2 +1,2 @@
-baseurl: /ETHotsite
+baseurl: /jekyll-tutorial
 exclude: ['README.md','.gitignore','.idea']
